@@ -5,9 +5,9 @@ type DescriptionProps = {
 }
 
 const Description: React.FC<DescriptionProps> = ({ onClose }) => (
-  <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50 z-50">
+  <div className="fixed inset-0 flex items-center justify-center bg-red-800 bg-opacity-50 z-50">
     <div className="bg-white p-8 rounded-lg shadow-lg max-w-md mx-auto">
-      <h2 className="text-2xl font-bold mb-4 text-pink-500">
+      <h2 className="text-2xl font-Helvetica mb-4 text-pink-500">
         おかしにっきとは？
       </h2>
       <p className="text-gray-700">
