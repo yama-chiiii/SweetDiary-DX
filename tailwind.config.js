@@ -9,7 +9,8 @@ module.exports = {
         'none': 'none',
       },
       fontFamily: {
-        sans: ['Hachi Maru Pop', 'sans-serif'],
+         sans: ['Hachi Maru Pop', 'sans-serif'],
+        
       },
       colors: {
         pink: {
