@@ -111,7 +111,8 @@ const DetailsForm = () => {
             setIsEditing(false);
             navigate("/home");
         } catch (error) {
-            alert("保存に失敗しました。エラーを確認してください。");
+          console.error('Error saving document: ', error) // エラーログを追加
+          alert('保存に失敗しました。エラーを確認してください。')
         }
     };
 
@@ -127,7 +128,8 @@ const DetailsForm = () => {
             await deleteDoc(docRef);
             navigate("/home");
         } catch (error) {
-            alert("削除に失敗しました。エラーを確認してください。");
+          console.error('Error deleting document: ', error) // エラーログを追加
+          alert('削除に失敗しました。エラーを確認してください。')
         }
     };
 
