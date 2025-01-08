@@ -98,4 +98,7 @@
         bottom: 4%;
         right: 4%;
     }
+    .hide-on-mobile {
+      display: none;
+    }
 }
