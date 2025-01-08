@@ -42,20 +42,20 @@
     .five-rows.candyImg {
         width: 6rem;
         position: absolute;
-        bottom: 420px;
-        right: 10px;
+        bottom: 54%;
+        right: 5%;
     }
     .five-rows.cakeImg {
         width: 6rem;
         position: absolute;
-        bottom: 80px;
-        left: -24px;
+        bottom: 7%;
+        left: -5%;
     }
     .five-rows.ameImg {
         width: 6rem;
         position: absolute;
-        bottom: 80px;
-        right: 10px;
+        bottom: 8%;
+        right: 2%;
     }
 
     .six-rows.candyImg {
@@ -83,19 +83,19 @@
     .candyImg {
         position: absolute;
         width: 5rem;
-        bottom: 400px;
-        right: 10px;
+        bottom: 60%;
+        right: 10%;
     }
     .cakeImg {
         position: absolute;
         width: 5rem;
-        bottom: 36px;
+        bottom: 4%;
         left: -10px;
     }
     .ameImg {
         position: absolute;
         width: 6rem;
-        bottom: 40px;
-        right: 10px;
+        bottom: 4%;
+        right: 4%;
     }
 }

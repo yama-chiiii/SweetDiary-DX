@@ -145,6 +145,8 @@ const DetailsForm = () => {
         navigate("/home");
     };
 
+
+
     const iconClass = (icon: string) => (isEditing && selectedIcon === icon ? "bg-pink-200" : "");
 
     return (
