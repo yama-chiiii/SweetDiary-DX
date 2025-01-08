@@ -16,7 +16,7 @@ const Description: React.FC<DescriptionProps> = ({ onClose }) => (
       <div className='flex sm:flex-row flex-col justify-center'>
       <img src={mihonImg} alt="mihon" className='w-50% h-auto mt-4 sm:h-80 rounded-lg'/>
       <img src={yajirusiImg} alt="yajirusi" className='w-16 h-10 ml-3 mt-36 hide-on-mobile'/>
-      <img src={kirokuImg} alt='kiroku' className='w-50% h-auto mt-4 sm:h-80ml-2 rounded-lg'/>
+      <img src={kirokuImg} alt='kiroku' className='w-50% h-auto mt-4 sm:h-80 ml-2 rounded-lg'/>
       <img src={yajirusiImg} alt="yajirusi" className='w-16 h-10 ml-3 mt-36 hide-on-mobile'/>
       <img src={kekkaImg} alt='kekka' className='w-50% h-auto mt-4 sm:h-80 ml-2 rounded-lg'/>
       </div>
